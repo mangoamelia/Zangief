@@ -1,0 +1,48 @@
+/*=========================================================================
+=============================* PARALLAXES *================================
+=========================================================================== */
+
+/*.skrollr-desktop body {
+height:100% !important;
+}
+
+#skrollr-body {
+  height:100%;
+  overflow:visible;
+  position:relative;
+  }
+
+.skrollable {
+z-index:100;
+}
+
+*/
+
+#docs {
+z-index: 50;
+color:#ffffff;
+}
+
+.apicast {
+background: url(../img/api-clouds.jpg) 0px 0px;
+}
+
+#bars1,
+#bars2,
+#bars3,
+#bars4,
+#bars5 {
+background-color: #86a333;
+margin-bottom: 25px;
+height: 20px;
+}
+
+.ampersand {
+background: url(../img/dash.gif) 50% 50% repeat-y;
+vertical-align:middle;
+padding:110px 5px;
+}
+
+.ampersand img {
+vertical-align:middle;
+}
