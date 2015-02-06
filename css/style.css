@@ -29,17 +29,17 @@ h1 {
   }
 
 h2 {
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 300;
   }
 
 h3 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 300;
   }  
 
 h4 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   }
 
@@ -103,7 +103,7 @@ header {
   }  
 
 .supra {
-  background-color: #999999;
+  background-color: #e6e6e6;
   height: 40px;
   color: #fff;
   text-align: right;
@@ -282,7 +282,7 @@ header {
 .carousel-caption p {
   font-weight: 300;
   line-height: 1.4em;
-  font-size: 28px;
+  font-size: 20px;
   text-align:left;
   }
 
@@ -380,6 +380,7 @@ header {
 
 .gradient h2 {
   text-align:center;
+  font-size:30px;
   font-weight:300;
   line-height:1.6em;
   }
@@ -829,6 +830,16 @@ width: 100%;
   }
 
 
+/* ================ Platform Features page styles (Laura) =================== */
+
+
+
+
+/* ================ Info center page styles (Isaiah) =================== */
+
+
+
+
 /*=====================================================================================
 ================================* MKTO FORMS *=========================================
 ==================================================================================== */
@@ -899,7 +910,7 @@ width: 100%;
   padding: 5px 35px;
   margin-bottom: 0;
   margin-top:20px;
-  font-size: 14px;
+  font-size: 15px;
   font-family : 'Open Sans', Tahoma, Geneva, Sans-serif;
   font-weight: normal;
   line-height: 1.5em;
@@ -951,7 +962,7 @@ width: 100%;
   } 
 
 .btn-white {
-  color: #ff7314;
+  color: #15a1ff;
   background-color: #ffffff;
   font-size:16px;
   padding: 7px 35px;
