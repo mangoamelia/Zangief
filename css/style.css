@@ -20,6 +20,7 @@ body {
   line-height:1.4em;
   color: #333333;
   font-size:15px;
+  padding:5px;
   }
 
 h1 {
@@ -259,7 +260,7 @@ header {
   }	
 
 .carousel-caption {
-  bottom: 100px;
+  bottom:80px;
   text-shadow: none;
   color: #ffffff;
   z-index:10;
@@ -270,21 +271,60 @@ header {
   background: rgba(51,51,51,0.5);
   }
 
-.carousel-caption h1{
-  font-weight: 300;
-  font-size: 50px;
-  line-height: 1.4em;
-  padding: 0px;
-  color: #ffffff;
-  text-align:left;
-  }
 
-.carousel-caption p {
-  font-weight: 300;
-  line-height: 1.4em;
-  font-size: 20px;
-  text-align:left;
-  }
+@media (min-width: 320px) {
+  .carousel-caption h1{
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 1.4em;
+	padding: 0px;
+	color: #ffffff;
+	text-align:left;
+	}
+
+  .carousel-caption p {
+	font-weight: 300;
+	line-height: 1.4em;
+	font-size: 15px;
+	text-align:left;
+	}
+}
+
+@media (min-width: 768px) {
+  .carousel-caption h1{
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 1.4em;
+	padding: 0px;
+	color: #ffffff;
+	text-align:left;
+	}
+
+  .carousel-caption p {
+	font-weight: 300;
+	line-height: 1.4em;
+	font-size: 18px;
+	text-align:left;
+	}
+}
+
+@media (min-width: 992px) {
+  .carousel-caption h1{
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 1.4em;
+	padding: 0px;
+	color: #ffffff;
+	text-align:left;
+	}
+
+  .carousel-caption p {
+	font-weight: 300;
+	line-height: 1.4em;
+	font-size: 20px;
+	text-align:left;
+	}
+}	
 
 
 .carousel-indicators {
@@ -969,8 +1009,8 @@ width: 100%;
   }
 
 .btn-white:hover {
-  color: #ff7314;
-  background-color: #fdc6a0;
+  color: #1a7ec2;
+  background-color: #ffffff;
   }
 
 .btn-white:active {
