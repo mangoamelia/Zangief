@@ -20,7 +20,7 @@ body {
   line-height:1.4em;
   color: #333333;
   font-size:15px;
-  padding:0px;
+  padding:5px;
   }
 
 h1 {
@@ -876,8 +876,62 @@ width: 100%;
 
 
 /* ================ Info center page styles (Isaiah) =================== */
+.info-center-title-links {
+  margin-top: 35px;
+}
 
 
+.carousel.testimonial {
+  height: 250px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  }
+
+ .item.testimonial {
+  height: 250px;
+  background-color: #ffffff;
+  }
+
+.carousel-indicators.testimonial {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+  }
+
+.carousel-indicators.testimonial li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  //background-color: #000 \9;
+  background-color: #e4e4e4;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  }
+
+.carousel-indicators.testimonial .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #b6b6b6;
+  }
+
+.video-description {
+  height:150px;
+}
+
+.embedded-video {
+  padding:0;
+  height:200px;
+}
 
 
 /*=====================================================================================
