@@ -20,7 +20,7 @@ body {
   line-height:1.4em;
   color: #333333;
   font-size:15px;
-  padding:0px;
+  padding:5px;
   }
 
 h1 {
@@ -486,7 +486,9 @@ header {
 
 .icon img {
   display:inline-block;
-  width:60%;
+  width:20%;
+  padding-top:8px;
+  padding-right:5px;
   }
 
 .threes img {
@@ -510,8 +512,9 @@ header {
   }
   
 .exo {
-  font-family: 'Exo Light', Tahoma, Geneva, Sans-serif;
-  }
+  font-family: 'Exo', Tahoma, Geneva, Sans-serif;
+  margin-bottom:6px;
+}
   
 img.feat {
   box-shadow: 0px 0px 5px 0px rgba(195,195,195,1);
@@ -546,10 +549,7 @@ img.team {
   margin:0 auto;
   } 
 
-.regular {
-  font-weight:400;
-  }
-  
+
 /*=====================================================================================
 ================================* PAGES *==============================================
 ==================================================================================== */
@@ -874,67 +874,69 @@ width: 100%;
 
 
 /* ================ Platform Features page styles (Laura) =================== */
+.gradient p {
+  font-size:20px; 
+  font-weight:300;
 
-
-
-
-/* ================ Info center page styles (Isaiah) =================== */
-.info-center-title-links {
-  margin-top: 35px;
 }
-
-
-.carousel.testimonial {
-  height: 250px;
-  margin-top:0px;
-  margin-bottom: 0px;
-  }
-
- .item.testimonial {
-  height: 250px;
-  background-color: #ffffff;
-  }
-
-.carousel-indicators.testimonial {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  z-index: 15;
-  width: 60%;
-  padding-left: 0;
-  margin-left: -30%;
-  text-align: center;
-  list-style: none;
-  }
-
-.carousel-indicators.testimonial li {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  //background-color: #000 \9;
-  background-color: #e4e4e4;
-  border: 1px solid #e4e4e4;
-  border-radius: 10px;
-  }
-
-.carousel-indicators.testimonial .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  background-color: #b6b6b6;
-  }
-
-.video-description {
-  height:150px;
+a.apicast {
+  color:#FFFFFF;
+  background-color:rgba(255,255,255,.2);
+  padding:0 0 0 0;
+  margin:0 0 35px 0;
 }
-
-.embedded-video {
+.dashed {
+  background: url(../img/dash.gif) 44px 240px repeat-y;
+  min-height:440px;
+}
+.larger {
+  width:6%;
+}
+.api-min {
+  min-height:450px;
+}
+.opacity {
+  background-color:rgba(255,255,255,0.2);
+  padding-bottom:35px;
+}
+body {
+  margin:0;
   padding:0;
-  height:200px;
 }
+.push {
+  min-height:384px;
+}
+.rightside {
+  padding:20px 0 0 20px;
+}
+.rightside img {
+  align:right;
+  float:right;
+}
+.no-fpad {
+  padding-right:0;
+  padding-top:0;
+}
+.api-config-pad {
+  padding-top:40px;
+}
+.solo {
+  width:10%;
+}
+.spacer-56 {
+  margin-top:56px;
+  display:inline-block;
+}
+@media (max-width: 990px) {
+  .mobile-hide {
+    display:none;
+  }
+}
+/*.own_column {
+  width:52%;
+} */
+/* ================ Info center page styles (Isaiah) =================== */
+
 
 
 
