@@ -885,9 +885,12 @@ a.apicast {
   padding:0 0 0 0;
   margin:0 0 35px 0;
 }
-.dashed {
-  background: url(../img/dash.gif) 44px 240px repeat-y;
-  min-height:440px;
+.panel1 {
+  background:url(../img/panel1-bg.gif) 0% 0% no-repeat;
+}
+.panel5 {
+  background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
+  min-height:545px;
 }
 .larger {
   width:6%;
@@ -912,6 +915,7 @@ body {
 .rightside img {
   align:right;
   float:right;
+  width:85%;
 }
 .no-fpad {
   padding-right:0;
@@ -919,6 +923,7 @@ body {
 }
 .api-config-pad {
   padding-top:40px;
+  padding-right:0;
 }
 .solo {
   width:10%;
@@ -927,9 +932,21 @@ body {
   margin-top:56px;
   display:inline-block;
 }
+.own_column {
+  width:50%;
+  margin-top:10px;
+  margin-left:0;
+  margin-right:0;
+}
 @media (max-width: 990px) {
   .mobile-hide {
     display:none;
+  }
+  .panel1 {
+    background:none;
+  }
+  .panel5 {
+    background:none;
   }
 }
 /*.own_column {
