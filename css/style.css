@@ -421,7 +421,7 @@ header {
   background: -ms-linear-gradient(-45deg, rgba(216,86,0,1) 0%, rgba(255,115,20,1) 81%, rgba(255,115,20,1) 100%);
   background: linear-gradient(135deg, rgba(216,86,0,1) 0%, rgba(255,115,20,1) 81%, rgba(255,115,20,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d85600', endColorstr='#ff7314', GradientType=1 );
-  color:#ffffff;
+  color:#fae5de;
   }
 
 .gradient h2 {
@@ -1265,13 +1265,13 @@ h2.devportal {
 ==================================================================================== */
 .footerlinks {
   background-color: #505050;
-  color: #ffffff;
+  color: #cccccc;
   padding-top:10px;
   }
 
 .footerlinks h4 {
-  font-weight: 600;
-  font-size:14px;
+  font-weight: 400;
+  font-size:12px;
   }
 
 .footerlinks ul {
@@ -1279,6 +1279,7 @@ h2.devportal {
   padding-left:0px;
   padding-bottom: 30px;
   font-size:12px;
+  font-weight:300;
   }
 
 .footerlinks li {
@@ -1287,7 +1288,7 @@ h2.devportal {
   }
 
 .footerlinks li a {
-  color: #ffffff;
+  color: #cccccc;
   }
 
 .social {
@@ -1316,7 +1317,7 @@ h2.devportal {
 #menu-footer-resources li a,
 #menu-footer-support li a,
 #menu-footer-about li a {
-  color: #ffffff;
+  color: #cccccc;
   list-style-type:none;
   font-size: 14px;
   line-height:1.5em;
@@ -1332,7 +1333,7 @@ footer p,
 footer a {
   font-size: 12px;
   line-height: 1.3em;
-  color: #ffffff;
+  color: #cccccc;
   }
 
 #menu-legal li {
