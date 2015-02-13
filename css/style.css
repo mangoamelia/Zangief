@@ -425,6 +425,11 @@ header {
   line-height:1.6em;
   }
 
+.gradient p {
+  font-size:20px; 
+  font-weight:300; 
+  }
+
 .faded {
   background: rgba(255,255,255,1);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(244,244,244,1) 100%);
@@ -875,6 +880,153 @@ width: 100%;
 
 /* ================ Platform Features page styles (Laura) =================== */
 
+
+.icon-feat {
+  text-align:center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  }
+
+.icon-feat img {
+  display:inline-block;
+  width:20%;
+  padding-top:8px;
+  padding-right:5px;
+  }
+  
+  
+a.apicast {
+  color:#FFFFFF;
+  background:none;
+  padding:0 0 0 0;
+  margin:0 0 35px 0;
+  }
+
+.panel1 {
+  background:url(../img/panel1-bg.gif) 0% 15% no-repeat;
+  }
+
+.panel5 {
+  background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
+  min-height:545px;
+}
+
+.panel7 {
+  background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
+}
+
+.icon-apiconfig {
+  margin-left:124px;
+  margin-top:14px;
+}
+
+.larger {
+  width:6%;
+}
+
+.smaller {
+  width:4%;
+}
+
+.api-min {
+  min-height:450px;
+}
+
+.opacity {
+  background-color:rgba(255,255,255,0.2);
+  padding-bottom:35px;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.push {
+  min-height:384px;
+}
+
+.rightside {
+  padding:20px 0 0 20px;
+}
+
+.rightside img {
+  align:right;
+  float:right;
+  width:85%;
+}
+
+.no-fpad {
+  padding-right:0;
+  padding-top:0;
+}
+
+.api-config-pad {
+  padding-top:40px;
+  padding-right:0;
+}
+
+.solo {
+  width:10%;
+}
+
+.spacer-56 {
+  margin-top:56px;
+  display:inline-block;
+}
+
+.own_column {
+  width:50%;
+  margin-top:10px;
+  margin-left:0;
+  margin-right:0;
+}
+
+.caption {
+  font-family:'Open Sans';
+  font-size:12px;
+  color:#333;
+  float:right;
+  margin-left:75px;
+  padding-bottom:85px;
+}
+
+.devportal-icon {
+  padding-top:31px;
+}
+
+h2.devportal {
+  padding-top:14px;
+}
+
+@media (min-width:990px) {
+  img.icon {
+    width:89px;
+    }
+  }
+
+@media (max-width: 990px) {
+  .mobile-hide {
+    display:none;
+  	}
+  
+  .panel1 {
+    background:none;
+    }
+  
+  .panel5 {
+    background:none;
+    }
+  
+  .panel7 {
+    background:none;
+    }
+  }
+
+/*.own_column {
+  width:52%;
+} */
 
 
 
