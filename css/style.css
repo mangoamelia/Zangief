@@ -43,6 +43,11 @@ h4 {
   font-size: 15px;
   font-weight: 400;
   }
+  
+h5 {
+  font-size: 15px;
+  font-weight: 600;
+  }  
 
 p { 
   font-family : 'Open Sans', Tahoma, Geneva, Sans-serif;
