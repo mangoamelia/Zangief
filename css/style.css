@@ -47,7 +47,8 @@ h4 {
 p { 
   font-family : 'Open Sans', Tahoma, Geneva, Sans-serif;
   line-height : 1.6em;
-  padding:5px;
+  padding:0px;
+  margin-bottom: 5px;
   font-weight: 300; /*change suggested from Melissa, reconsider this*/
   }
   
@@ -957,7 +958,7 @@ body {
   width:85%;
 }
 
-.no-fpad {
+.no-pad {
   padding-right:0;
   padding-top:0;
 }
@@ -1033,7 +1034,7 @@ h2.devportal {
 /* ================ Info center page styles (Isaiah) =================== */
 .info-center-title-links {
   margin-top: 35px;
-}
+  }
 
 
 .carousel.testimonial {
@@ -1081,13 +1082,39 @@ h2.devportal {
 
 .video-description {
   height:150px;
-}
+  }
 
 .embedded-video {
   padding:0;
   height:200px;
-}
+  }
 
+.img-info-featured {
+  display: block;
+  height: 275px;
+  max-width: 100%;
+  position: absolute;
+  padding-top: 20px;
+  left: 30px;
+  }
+
+.embed-resonsivpe {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+
+.embed-responsive .embed-responsive-item, iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  }
 
 
 /*=====================================================================================
