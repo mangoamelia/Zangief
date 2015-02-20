@@ -561,6 +561,36 @@ img.team {
   font-weight:400;
   }
   
+.lightbox,
+.downloadlb {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, .8);
+  }
+
+.lightbox_table {
+  width:100%;
+  height:100%;
+  }
+
+.lightbox_table_cell {
+  vertical-align:middle;
+  }  
+
+.signuplb {
+  height: 450px;
+  background-color:#f4f4f4;
+  border:1px solid #505050;
+  }
+
+.signuplb iframe {
+  padding: 40px 20px 40px 40px;
+  margin-left:10px;
+  }
+ 
 /*=====================================================================================
 ================================* PAGES *==============================================
 ==================================================================================== */
