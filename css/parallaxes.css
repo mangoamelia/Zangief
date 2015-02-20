@@ -35,19 +35,19 @@ background: url(../img/clouds.jpg) 0px 0px;
 	background-color:rgba(130,154,60,.5);
 }
 #outerbars1 {
-	width:30%;
-}
-#outerbars2 {
-	width:60%;
-}
-#outerbars3 {
 	width:20%;
 }
-#outerbars4 {
+#outerbars2 {
 	width:50%;
 }
+#outerbars3 {
+	width:10%;
+}
+#outerbars4 {
+	width:40%;
+}
 #outerbars5 {
-	width:100%;
+	width:90%;
 }
 #bars1,
 #bars2,
@@ -133,4 +133,11 @@ vertical-align:middle;
  .spacer-40 {
  	display:none;
  }
+}
+
+.path {
+	stroke-dashoffset:4940;
+	stroke-dasharray:500;
+	animation: draw 10s linear infinite;
+	fill-opacity: 0;
 }
