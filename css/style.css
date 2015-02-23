@@ -386,12 +386,12 @@ header {
 
 .spacer-60 {
   margin: 30px 0;
-  display:inline-block;
+  display:block;
   }
 
 .spacer-40 {
   margin: 20px 0;
-  display:inline-block;
+  display:block;
   }
 
 .light {
