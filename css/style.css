@@ -959,6 +959,18 @@ body {
 h2.devportal {
   padding-top:14px;
 }
+
+svg {
+  width:359.814px;
+  height:159.813px;
+  float:left;
+}
+path{
+  stroke-dasharray:2000;  
+  fill:none;
+  stroke:#10a0d2;
+  stroke-width:4;
+}
 @media (min-width:990px) {
   img.icon {
     width:89px;
@@ -984,10 +996,16 @@ h2.devportal {
 } */
 
 /* ================ Partners page styles (Laura) =================== */
+.top-pad {
+  padding-top:66px;
+}
 ul.partners {
     margin: 0.75em 0;
     padding: 0 1em;
     list-style: none;
+}
+img.partner-logo {
+  padding-bottom:8px;
 }
 ul.partners li:before { 
     content: "";
@@ -998,12 +1016,14 @@ ul.partners li:before {
     height: 0;
     width: 0;
     left: -1em;
-    top: 0.9em;
+    top: 1.2em;
     position: relative;
 }
 ul.partners li {
   font-family: 'Open Sans';
   font-size:12px;
+  padding-bottom:4px;
+  vertical-align:middle;
 }
 .partner {
   margin-top:40px;
@@ -1014,15 +1034,15 @@ dl {
   width:100%;
 
 }
-dt {
-  width:4%;
-}
 dd, dt {
-  float:left;
   margin-right: 20px;
 }
+dd p {
+  line-height:1.6em;
+  margin:4px 0;
+}
 .bullets {
-  margin-top:40px;
+  margin-top:32px;
 }
 .section {
   margin-top:40px;
@@ -1030,6 +1050,15 @@ dd, dt {
 .whole {
   width:100%;
   height:5px;
+}
+.hr {
+  height: 0px;
+  padding:20px 0;
+  margin: 0px auto;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 1px;
+  width:90%;
+
 }
 /* ================ Reports Page styles ================================ */
 
