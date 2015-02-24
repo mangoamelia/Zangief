@@ -590,6 +590,25 @@ img.team {
   padding: 40px 20px 40px 40px;
   margin-left:10px;
   }
+  
+.modal {
+top:50px;
+}
+
+.modal-content {
+border-radius:4px;
+}
+
+.modal-dialog {
+width: 400px;
+}
+
+.modal-header{
+border-bottom:none;
+}
+
+
+  
  
 /*=====================================================================================
 ================================* PAGES *==============================================
@@ -1342,22 +1361,30 @@ border-radius:3px;
   color: #FFFFFF !important;
   }
 
-.mktoForm .mktoLabel {
-  float: left;
-  line-height: 1.2em;
-  padding-top: .3em;
-  font-weight:normal;
-  color: #595858;
-  }
-
 .mktoForm .mktoError .mktoErrorMsg {
-  display:none;
+  display:none !important;
   background-color: transparent;
   }
 
 .mktoForm .mktoError .mktoErrorArrowWrap {
-  display:none;
+  display:none !important;
   }
+
+.mktoForm .mktoAsterix {
+display:none !important;
+}
+
+.mktoForm .mktoLabel {
+float: left;
+line-height: 1.2em;
+padding-top: .3em;
+font-family:'Open Sans', Tahoma, Geneva, Sans-serif !important;
+font-weight:300 !important;
+}
+
+.mktoForm .mktoRequiredField label.mktoLabel {
+font-weight: 300 !important;
+}
 
 /*=====================================================================================
 ================================* BUTTONS *============================================
