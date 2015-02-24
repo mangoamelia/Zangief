@@ -395,6 +395,13 @@ header {
   padding-right: 15px;
   }
 
+
+.spacer-120 {
+  margin: 60px 0;
+  display:inline-block;
+  }
+  
+  
 .spacer-60 {
   margin: 30px 0;
   display:inline-block;
@@ -404,6 +411,11 @@ header {
   margin: 20px 0;
   display:inline-block;
   }
+  
+.spacer-20 {
+  margin: 10px 0;
+  display:inline-block;
+  }  
 
 .light {
   background-color: #ffffff;
@@ -416,6 +428,10 @@ header {
 .green {
   color: #829a3c;
   }
+  
+.orange {
+color: #ff7314;
+}  
 
 .gradient {
   background: rgba(216,86,0,1);
@@ -650,7 +666,14 @@ width: 400px;
 border-bottom:none;
 }
 
+.margin-bottom-40 {
+  margin-bottom:40px;
+  }
 
+.no-spacing {
+  padding:0;
+  margin:0;
+  } 
   
  
 /*=====================================================================================
@@ -1262,10 +1285,6 @@ dd, dt {
 
   /*--------potentially global style edits----
 
-a:hover { /*--------------- added
-  text-decoration:none;
-  cursor:pointer;
-}  */
 
 
 /*--------------- added
@@ -1321,15 +1340,6 @@ h2 {
   margin-top: 35px;
   margin-bottom: 25px;
 }
-
-.margin-bottom-40 {
-  margin-bottom:40px;
-}
-
-.no-spacing {
-  padding:0;
-  margin:0;
-} 
 
 .gray h2 {
   line-height: 1.6em;
