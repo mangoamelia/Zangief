@@ -260,10 +260,10 @@ header {
 
 @media screen and (min-width: 768px) {
   .carousel-caption {
-  right: 35%;
-  left: 15%;
-  }
-  } 
+	right: 35%;
+	left: 15%;
+	}
+  }	
 
 .carousel-caption {
   bottom:80px;
@@ -280,57 +280,57 @@ header {
 
 @media (min-width: 320px) {
   .carousel-caption h1{
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 1.4em;
-  padding: 0px;
-  color: #ffffff;
-  text-align:left;
-  }
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 1.4em;
+	padding: 0px;
+	color: #ffffff;
+	text-align:left;
+	}
 
   .carousel-caption p {
-  font-weight: 300;
-  line-height: 1.4em;
-  font-size: 15px;
-  text-align:left;
-  }
+	font-weight: 300;
+	line-height: 1.4em;
+	font-size: 15px;
+	text-align:left;
+	}
 }
 
 @media (min-width: 768px) {
   .carousel-caption h1{
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 1.4em;
-  padding: 0px;
-  color: #ffffff;
-  text-align:left;
-  }
+	font-weight: 300;
+	font-size: 40px;
+	line-height: 1.4em;
+	padding: 0px;
+	color: #ffffff;
+	text-align:left;
+	}
 
   .carousel-caption p {
-  font-weight: 300;
-  line-height: 1.4em;
-  font-size: 18px;
-  text-align:left;
-  }
+	font-weight: 300;
+	line-height: 1.4em;
+	font-size: 18px;
+	text-align:left;
+	}
 }
 
 @media (min-width: 992px) {
   .carousel-caption h1{
-  font-weight: 300;
-  font-size: 50px;
-  line-height: 1.4em;
-  padding: 0px;
-  color: #ffffff;
-  text-align:left;
-  }
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 1.4em;
+	padding: 0px;
+	color: #ffffff;
+	text-align:left;
+	}
 
   .carousel-caption p {
-  font-weight: 300;
-  line-height: 1.4em;
-  font-size: 20px;
-  text-align:left;
-  }
-} 
+	font-weight: 300;
+	line-height: 1.4em;
+	font-size: 20px;
+	text-align:left;
+	}
+}	
 
 
 .carousel-indicators {
@@ -458,7 +458,7 @@ header {
   .marketing {
     padding-left: 0;
     padding-right: 0;
-    }
+  	}
   }
 
 /* Fixes width of embedded signup form */
@@ -467,7 +467,7 @@ header {
     width: 310px;
     height: 675px;
     background-color: #f4f4f4;
-    }
+  	}
   }
 
 @media (min-width: 660px) {
@@ -561,6 +561,55 @@ img.team {
   font-weight:400;
   }
   
+.lightbox,
+.downloadlb {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, .8);
+  }
+
+.lightbox_table {
+  width:100%;
+  height:100%;
+  }
+
+.lightbox_table_cell {
+  vertical-align:middle;
+  }  
+
+.signuplb {
+  height: 450px;
+  background-color:#f4f4f4;
+  border:1px solid #505050;
+  }
+
+.signuplb iframe {
+  padding: 40px 20px 40px 40px;
+  margin-left:10px;
+  }
+  
+.modal {
+top:50px;
+}
+
+.modal-content {
+border-radius:4px;
+}
+
+.modal-dialog {
+width: 400px;
+}
+
+.modal-header{
+border-bottom:none;
+}
+
+
+  
+ 
 /*=====================================================================================
 ================================* PAGES *==============================================
 ==================================================================================== */
@@ -853,7 +902,7 @@ width: 100%;
     width: 400px;
     height: 400px;
     background-color: #f4f4f4;
-    }
+  	}
   }
 
 
@@ -900,95 +949,80 @@ width: 100%;
   padding-top:8px;
   padding-right:5px;
   }
+
   
-  
+/* ================ Platform Features page styles (Laura) =================== */
+.gradient p {
+  font-size:20px; 
+  font-weight:300;
+
+}
 a.apicast {
   color:#FFFFFF;
   background:none;
   padding:0 0 0 0;
   margin:0 0 35px 0;
-  }
-
+}
 .panel1 {
   background:url(../img/panel1-bg.gif) 0% 15% no-repeat;
-  }
-
+}
 .panel5 {
   background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
   min-height:545px;
 }
-
 .panel7 {
   background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
-}
-
-.icon-apiconfig {
-  margin-left:124px;
-  margin-top:14px;
 }
 
 .larger {
   width:6%;
 }
-
 .smaller {
   width:4%;
 }
-
 .api-min {
   min-height:450px;
 }
-
 .opacity {
   background-color:rgba(255,255,255,0.2);
   padding-bottom:35px;
 }
-
 body {
   margin:0;
   padding:0;
 }
-
 .push {
   min-height:384px;
 }
-
 .rightside {
   padding:20px 0 0 20px;
 }
-
 .rightside img {
   align:right;
   float:right;
   width:85%;
 }
-
-.no-pad {
+.no-fpad {
   padding-right:0;
   padding-top:0;
 }
-
 .api-config-pad {
   padding-top:40px;
   padding-right:0;
 }
-
 .solo {
   width:10%;
 }
-
 .spacer-56 {
   margin-top:56px;
   display:inline-block;
 }
-
 .own_column {
   width:50%;
   margin-top:10px;
   margin-left:0;
   margin-right:0;
 }
-
 .caption {
   font-family:'Open Sans';
   font-size:12px;
@@ -997,43 +1031,99 @@ body {
   margin-left:75px;
   padding-bottom:85px;
 }
-
 .devportal-icon {
   padding-top:31px;
 }
-
 h2.devportal {
   padding-top:14px;
 }
-
 @media (min-width:990px) {
   img.icon {
     width:89px;
-    }
-  }
 
+  }
+}
 @media (max-width: 990px) {
   .mobile-hide {
     display:none;
-    }
-  
+  }
   .panel1 {
     background:none;
-    }
-  
+  }
   .panel5 {
     background:none;
-    }
-  
+  }
   .panel7 {
     background:none;
-    }
   }
-
+}
 /*.own_column {
   width:52%;
 } */
 
+
+/* ================ Partners page styles (Laura) =================== */
+ul.partners {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+ul.partners li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+ul.partners li {
+  font-family: 'Open Sans';
+  font-size:12px;
+}
+.partner {
+  margin-top:40px;
+}
+dl {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width:100%;
+
+}
+dt {
+  width:4%;
+}
+dd, dt {
+  float:left;
+  margin-right: 20px;
+}
+.bullets {
+  margin-top:40px;
+}
+.section {
+  margin-top:40px;
+}
+.whole {
+  width:100%;
+  height:5px;
+}
+/* ================ Reports Page styles ================================ */
+
+.bigger {font-size:20px;}
+.report-image {
+  float:left;
+  margin-right:15px;
+}
+.report-desc {
+  float:left;
+  width:60%;
+}
+.nomarg {
+  margin:0 0 0 0;
+}
 
 
 /* ================ Info center page styles (Isaiah) =================== */
@@ -1047,7 +1137,7 @@ h2.devportal {
   max-width: 100%;
   position: absolute;
   padding-top: 20px;
-  left: 30px;
+  left: 60px;
 }
 
 
@@ -1101,7 +1191,7 @@ h2.devportal {
 .embedded-video {
   padding:0;
   height:200px;
-  margin-bottom:20px;
+  margin-bottom:15px;
   }
 
 .img-info-featured {
@@ -1131,7 +1221,11 @@ h2.devportal {
   border: 0;
   }
 
-  /*--------potentially global style edits----*/
+.page-end-margin {
+  margin-bottom:100px;
+}
+
+  /*--------potentially global style edits----
 
 a:hover {
   text-decoration:none;
@@ -1179,11 +1273,9 @@ color: #fae5de;
 .gray h2.orange {
   color:#ff7314;
 }
+*/
 
-
-
-
-  /*--------potentially conflicting spacing changes--------*/
+  /*--------potentially conflicting spacing changes--------
 
 h3 {
   margin-top:30px;
@@ -1206,9 +1298,7 @@ h2 {
 .gray h2 {
   line-height: 1.6em;
 }
-
-
-
+*/
 /*=====================================================================================
 ================================* MKTO FORMS *=========================================
 ==================================================================================== */
@@ -1218,17 +1308,39 @@ h2 {
   margin: 0;
   }
 
+.mktoModalMain {
+margin:20px;
+}
+
+.mktoForm input[type=text],
+.mktoForm input[type=url],
+.mktoForm input[type=email],
+.mktoForm input[type=tel],
+.mktoForm input[type=number],
+.mktoForm input[type=date],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField {
+border: 1px solid #cccccc;
+background-color: #f0f0f0
+padding: 6px 6px;
+line-height:1.2em;
+color: #505050;
+box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+-mox-box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+border-radius:3px;
+}
 
 .mktoForm .mktoButtonWrap.mktoNative button.mktoButton {
-  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7314), color-stop(1, #ff7314) );
-  background:-moz-linear-gradient( center top, #ff7314 5%, #ff7314 100% );
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7314', endColorstr='#ff7314');
-  background-color:#ff7314;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #15a1ff), color-stop(1, #15a1ff) );
+  background:-moz-linear-gradient( center top, #15a1ff 5%, #15a1ff 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#15a1ff', endColorstr='#15a1ff');
+  background-color:#15a1ff;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
   text-indent:0;
-  border:1px solid #ee6b0d;
+  border:1px solid #15a1ff;
   display:inline-block;
   color:#ffffff;
   font-family:'Open Sans';
@@ -1238,37 +1350,45 @@ h2 {
   padding: 0px 25px;
   text-decoration:none;
   text-align:center;
-  text-shadow:0px 0px 0px #d55c0c;
+  text-shadow:0px 0px 0px #15a1ff;
   height: 40px;
   }
 
 .mktoForm .mktoButtonWrap.mktoNative button.mktoButton:hover {
-  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7314), color-stop(1, #ff7314) );
-  background:-moz-linear-gradient( center top, #ff7314 5%, #ff7314 100% );
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7314', endColorstr='#ff7314');
-  background-color:#ff7314;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1a7ec2), color-stop(1, #1a7ec2) );
+  background:-moz-linear-gradient( center top, #1a7ec2 5%, #1a7ec2 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a7ec2', endColorstr='#1a7ec2');
+  background-color:#1a7ec2;
   }
 
 #mktFrmSubmit{
   color: #FFFFFF !important;
   }
 
-.mktoForm .mktoLabel {
-  float: left;
-  line-height: 1.2em;
-  padding-top: .3em;
-  font-weight:normal;
-  color: #595858;
-  }
-
 .mktoForm .mktoError .mktoErrorMsg {
-  display:none;
+  display:none !important;
   background-color: transparent;
   }
 
 .mktoForm .mktoError .mktoErrorArrowWrap {
-  display:none;
+  display:none !important;
   }
+
+.mktoForm .mktoAsterix {
+display:none !important;
+}
+
+.mktoForm .mktoLabel {
+float: left;
+line-height: 1.2em;
+padding-top: .3em;
+font-family:'Open Sans', Tahoma, Geneva, Sans-serif !important;
+font-weight:300 !important;
+}
+
+.mktoForm .mktoRequiredField label.mktoLabel {
+font-weight: 300 !important;
+}
 
 /*=====================================================================================
 ================================* BUTTONS *============================================

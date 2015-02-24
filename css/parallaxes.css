@@ -27,6 +27,28 @@ color:#ffffff;
 background: url(../img/clouds.jpg) 0px 0px;
 }
 
+#outerbars1,
+#outerbars2,
+#outerbars3,
+#outerbars4,
+#outerbars5 {
+	background-color:rgba(130,154,60,.5);
+}
+#outerbars1 {
+	width:20%;
+}
+#outerbars2 {
+	width:50%;
+}
+#outerbars3 {
+	width:10%;
+}
+#outerbars4 {
+	width:40%;
+}
+#outerbars5 {
+	width:90%;
+}
 #bars1,
 #bars2,
 #bars3,
@@ -36,13 +58,86 @@ background-color: #829a3c;
 margin-bottom: 25px;
 height: 20px;
 }
-
+#num50 {
+	opacity:0.1;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+#num60 {
+	opacity:0.3;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+#num70 {
+	opacity:0.5;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+#num80 {
+	opacity:0.7;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+#num90{
+	opacity:0.9;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+#num100 {
+	opacity:1.0;
+	position:absolute;
+	top:0%;
+	left:0%;
+}
 .ampersand {
 background: url(../img/dash.gif) 50% 50% repeat-y;
 vertical-align:middle;
 padding:110px 5px;
+height:100%;
+min-height:479px;
+max-height:480px;
 }
 
 .ampersand img {
 vertical-align:middle;
+}
+.numbers {
+	font-family: 'Open Sans';
+	font-size: 100px;
+  	background: -webkit-linear-gradient(#d85600, #ff7314);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	float:left;
+  	position:relative;
+  	top:0px;
+  	left:0px;
+  	padding:30px;
+}
+.bars {
+	float:left;
+	width:100%;
+	margin-top:0;
+	position:absolute;
+	top:80px;
+	right:0px;
+}
+@media (max-width: 990px) {
+ .ampersand {
+    display:none;
+    }
+ .spacer-40 {
+ 	display:none;
+ }
+}
+
+.path {
+	stroke-dashoffset:4940;
+	stroke-dasharray:500;
+	animation: draw 10s linear infinite;
+	fill-opacity: 0;
 }
