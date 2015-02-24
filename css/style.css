@@ -60,6 +60,11 @@ p {
 a {
   color: #15a1ff;
   text-decoration:none;
+}
+
+a:hover {
+  text-decoration:none;
+  cursor:pointer;
 }  
 
 iframe {
@@ -435,6 +440,44 @@ header {
   font-size:20px; 
   font-weight:300; 
   }
+  
+.gradient-body {
+  padding:25px 0;
+  }
+  
+.gradient.gradient-body p {
+  font-size: 15px;
+  color: #fae5de;
+  }
+
+.gradient-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fae5de;
+  font-weight:300;
+  }
+
+.gradient-body ul {
+  margin-top:-8px;
+  }
+
+.gradient-body li {
+  margin: 0px 0px 10px 0px;
+  }
+
+.gradient-body li:before { 
+  content: "";
+  border-color: transparent #fff;
+  border-style: solid;
+  border-width: 0.30em 0 0.30em 0.40em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+  }  
 
 .faded {
   background: rgba(255,255,255,1);
@@ -1223,12 +1266,13 @@ dd, dt {
 
   /*--------potentially global style edits----
 
-a:hover {
+a:hover { /*--------------- added
   text-decoration:none;
   cursor:pointer;
+}  */
 
-}
 
+/*--------------- added
 .gradient-body {
   padding:25px 0;
 }
@@ -1264,9 +1308,9 @@ color: #fae5de;
     left: -1em;
     top: 0.9em;
     position: relative;
-}
+} -------------------*/
 
-.gray h2.orange {
+/* .gray h2.orange { -------- use h2 class="orange" for same effect 
   color:#ff7314;
 }
 */
