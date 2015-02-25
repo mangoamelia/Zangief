@@ -24,6 +24,7 @@ color: #fae5de;
 
 .gradient-body ul {
   margin-top:-8px;
+  margin-left:12px;
 }
 
 .gradient-body li {
@@ -40,7 +41,7 @@ color: #fae5de;
     height: 0;
     width: 0;
     left: -1em;
-    top: 0.9em;
+    top: 1.2em;
     position: relative;
 }
 
