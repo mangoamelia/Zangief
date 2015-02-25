@@ -32,6 +32,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 300;
+  vertical-align:middle;
   }
 
 h3 {
@@ -501,6 +502,7 @@ header {
   width:89px;
   padding-top:8px;
   padding-right:5px;
+  vertical-align:middle;
   }
 
 .threes img {
@@ -891,6 +893,16 @@ width: 100%;
   font-weight:300;
 
 }
+.arch-bg {
+  background:url(../img/architecture.png) top right no-repeat;
+  display:block;
+  min-height:384px;
+}
+.bg-devportal {
+  background:url(../img/devportal.png) top right no-repeat;
+  display:block;
+  min-height:384px;
+}
 a.apicast {
   color:#FFFFFF;
   background:none;
@@ -967,9 +979,6 @@ body {
 }
 .devportal-icon {
   padding-top:31px;
-}
-h2.devportal {
-  padding-top:14px;
 }
 
 svg {
