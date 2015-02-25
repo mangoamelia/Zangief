@@ -1225,6 +1225,32 @@ dd, dt {
   margin-bottom:100px;
 }
 
+/*------- Customers Page (Isaiah) ------*/
+
+.logos-color {
+  text-align:center;
+  margin:0 auto;
+  padding: 10px 5px 35px;
+  }
+
+.logos-color img {
+
+  width:90%;
+
+  }
+  
+.logos-color img:hover {
+
+    }  
+
+/*------- Customers Page (Isaiah) ------*/
+
+.presentation-embed {
+  box-shadow: 5px 0px 5px 0px rgba(195,195,195,.6);
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(195,195,195,.6);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(195,195,195,.6);
+  }
+
   /*--------potentially global style edits----
 
 a:hover {
