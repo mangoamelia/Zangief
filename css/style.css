@@ -1203,13 +1203,14 @@ dd, dt {
   left: 30px;
   }
 
-.embed-resonsivpe {
+/* .embed-responsive {
   position: relative;
   display: block;
   height: 0;
   padding: 0;
   overflow: hidden;
   }
+  */
 
 .embed-responsive .embed-responsive-item, iframe{
   position: absolute;
@@ -1224,6 +1225,16 @@ dd, dt {
 .page-end-margin {
   margin-bottom:100px;
 }
+
+.divider-line {
+  border-right:0px solid #b8b8b8;
+}
+
+@media (min-width: 992px) {
+      .divider-line {
+      border-right: 1px solid #b8b8b8;
+    }
+  }
 
 /*------- Customers Page (Isaiah) ------*/
 
