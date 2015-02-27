@@ -1203,28 +1203,48 @@ dd, dt {
   left: 30px;
   }
 
-/* .embed-responsive {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  }
-  */
+  .video-description {
+height: 120px;
+padding-top: 15px;
+}
 
-.embed-responsive .embed-responsive-item, iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  border: 0;
-  }
+/*------ responsive embed styles -------*/
+
+.embed-responsive {
+position: relative;
+display: block;
+height: 0;
+padding: 0;
+overflow: hidden;
+}
+  
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+
+
+  .embed-responsive.embed-responsive-16by9 {
+padding-bottom: 56.25%;
+}
+
+.embed-responsive.embed-responsive-4by3 {
+padding-bottom: 75%;
+}
 
 .page-end-margin {
   margin-bottom:100px;
 }
+
+
+
+/*------- Success Story Page Styles (Isaiah) ------*/
 
 .divider-line {
   border-right:0px solid #b8b8b8;
@@ -1236,7 +1256,10 @@ dd, dt {
     }
   }
 
-/*------- Customers Page (Isaiah) ------*/
+
+
+
+
 
 .logos-color {
   text-align:center;
@@ -1245,21 +1268,20 @@ dd, dt {
   }
 
 .logos-color img {
-
   width:90%;
-
   }
   
 .logos-color img:hover {
-
     }  
 
-/*------- Customers Page (Isaiah) ------*/
+
+/*------- Presentations Page (Isaiah) ------*/    
 
 .presentation-embed {
   box-shadow: 5px 0px 5px 0px rgba(195,195,195,.6);
   -webkit-box-shadow: 5px 0px 5px 0px rgba(195,195,195,.6);
   -moz-box-shadow: 5px 0px 5px 0px rgba(195,195,195,.6);
+  margin-bottom:10px;
   }
 
   /*--------potentially global style edits----
