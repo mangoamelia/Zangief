@@ -431,7 +431,26 @@ header {
   
 .orange {
 color: #ff7314;
-}  
+}
+
+/* new page head styles */
+.pghead h1 {
+margin-top:30px;
+margin-bottom: 0px;
+
+.pghead h3 {
+margin-top: 15px;
+margin-bottom:10px;
+}
+
+.pghead p {
+font-size: 20px;
+font-weight:300;
+margin-top: 10px;
+}
+
+
+  
 
 .gradient {
   background: rgba(216,86,0,1);
@@ -1311,10 +1330,17 @@ dd p {
   border: 0;
   }
 
-  /*--------potentially global style edits----
+.divider-line {
+  border-right:0px solid #b8b8b8;
+}
 
+@media (min-width: 992px) {
+      .divider-line {
+      border-right: 1px solid #b8b8b8;
+    }
+  }
 
-
+ 
 /*--------------- added
 .gradient-body {
   padding:25px 0;
