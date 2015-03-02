@@ -909,16 +909,7 @@ a.apicast {
   padding:0 0 0 0;
   margin:0 0 35px 0;
 }
-.panel1 {
-  background:url(../img/panel1-bg.gif) 0% 15% no-repeat;
-}
-.panel5 {
-  background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
-  min-height:545px;
-}
-.panel7 {
-  background:url(../img/panel5-bg.gif) 0% 0% no-repeat;
-}
+
 
 .larger {
   width:6%;
@@ -942,6 +933,7 @@ body {
 }
 .rightside {
   padding:20px 0 0 20px;
+  float:right;
 }
 .rightside img {
   align:right;
@@ -991,6 +983,7 @@ path{
   stroke:#10a0d2;
   stroke-width:4;
 }
+
 @media (min-width:990px) {
   img.icon {
     width:89px;
@@ -1019,7 +1012,7 @@ path{
 .top-pad {
   padding-top:66px;
 }
-ul.partners {
+ul.partners, ul.products {
     margin: 0.75em 0;
     padding: 0 1em;
     list-style: none;
@@ -1027,7 +1020,7 @@ ul.partners {
 img.partner-logo {
   padding-bottom:8px;
 }
-ul.partners li:before { 
+ul.partners li:before, ul.products li:before { 
     content: "";
     border-color: transparent #111;
     border-style: solid;
@@ -1080,6 +1073,21 @@ dd p {
   width:90%;
 
 }
+/* ================ Products page styles =============================== */
+
+.cta-module {
+  background-color:#f4f4f4;
+  padding:20px;
+  text-align:center;
+}
+.flowchart {
+  width:408px;
+  margin:0px auto;
+}
+.callout {
+  margin-top:20px;
+}
+
 /* ================ Reports Page styles ================================ */
 
 .bigger {font-size:20px;}
