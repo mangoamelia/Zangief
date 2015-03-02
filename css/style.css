@@ -1087,7 +1087,10 @@ dd p {
 .callout {
   margin-top:20px;
 }
-
+/* ================ Why API Management styles ========================== */
+.center {
+  text-align:center;
+}
 /* ================ Reports Page styles ================================ */
 
 .bigger {font-size:20px;}
