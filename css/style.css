@@ -1087,6 +1087,9 @@ dd p {
 .callout {
   margin-top:20px;
 }
+ul.products li {
+  color:#333;
+}
 /* ================ Why API Management styles ========================== */
 .center {
   text-align:center;
