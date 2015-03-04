@@ -1073,7 +1073,7 @@ dd p {
   width:90%;
 
 }
-/* ================ Products page styles =============================== */
+/* ================ Products pages styles =============================== */
 
 .cta-module {
   background-color:#f4f4f4;
@@ -1089,6 +1089,48 @@ dd p {
 }
 ul.products li {
   color:#333;
+}
+.logo-box {
+  display:table;
+  margin:20px 0;
+}
+.icon-products {
+  float:left;
+}
+.logo-box img {
+  margin-right:20px;
+  vertical-align:middle;
+}
+.clouds {
+  background-image:url(../img/clouds.jpg);
+  background-repeat:no-repeat;
+}
+.clouds .icon {
+  float:left;
+}
+.clouds p {
+  font-size:20px;
+}
+.orange-icon img {
+  width:10%;
+  margin:0px auto;
+}
+.number {
+  display:inline-block;
+}
+.number img {
+  width:20%;
+  float:left;
+}
+.half {
+margin:0px auto;
+width:80%;
+}
+.number h3 {
+  float:left;
+  vertical-align:middle;
+  margin-top:12px;
+  margin-left:4px;
 }
 /* ================ Why API Management styles ========================== */
 .center {
