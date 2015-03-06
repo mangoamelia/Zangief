@@ -1358,6 +1358,90 @@ h2 {
   line-height: 1.6em;
 }
 */
+
+
+/* use cases */
+
+.bullet-box {
+  margin-top:40px;
+}
+
+.bullet-box li:before { 
+    content: "";
+    border-color: transparent black;
+    border-style: solid;
+    border-width: 0.30em 0 0.30em 0.40em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+.bullet-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+    font-weight:300;
+}
+
+.bullet-box ul {
+  //margin-top:-8px;
+  margin-left:18px;
+}
+
+.bullet-box li {
+  margin: 0px 0px 0px 0px;
+}
+
+.bullet-box {
+  padding: 15px 15px 25px 15px;
+}
+
+.bullet-box.no-margin {
+  padding: 0px 15px 25px 15px;
+}
+
+.no-margin {
+  margin:0;
+}
+
+.header-title-unit h1 {
+margin:0;
+}
+.header-title-unit h3 {
+margin:0;
+}
+.header-title-unit {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.local-nav .navbar-collapse.collapse {
+padding-left: 0;
+}
+
+.local-nav .navbar-default .navbar-nav > li > a {
+color: #0fa0d2;
+margin-left: 15px;
+font-family: 'Open Sans', Tahoma, Geneva, Sans-serif;
+font-weight: 400;
+padding-top:0px;
+padding-bottom:20px;
+}
+
+@media (min-width: 768px) {
+  .local-nav .local-nav-label {
+  margin-left:0px;
+  }
+}
+
+ .local-nav-label {
+  margin-left:30px;
+ }
+
 /*=====================================================================================
 ================================* MKTO FORMS *=========================================
 ==================================================================================== */
