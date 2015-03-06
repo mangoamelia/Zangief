@@ -1132,6 +1132,9 @@ width:80%;
   margin-top:12px;
   margin-left:4px;
 }
+.neg-left {
+  margin-left:-40px;
+}
 /* ================ Why API Management styles ========================== */
 .center {
   text-align:center;
